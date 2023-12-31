@@ -1,0 +1,70 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 480px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.countries-heading {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.container {
+  width: 83%;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.select {
+  width: 170px;
+  height: 33px;
+  border: 1px solid #cbd2d9;
+  border-radius: 2px;
+  padding-left: 10px;
+  outline: none;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.label-text {
+  font-size: 13px;
+  margin-left: 10px;
+  color: #323f4b;
+  font-weight: bold;
+}
+
+.result-text {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #1e293b;
+}
